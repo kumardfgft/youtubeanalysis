@@ -3,7 +3,7 @@ const axios = require('axios');
 const cors = require('cors');
 const app = express();
 app.use(cors());
-const API_KEY = 'AIzaSyCQMl1toeEIaveuicFD_O8Wh_u2wU7rmSE';
+const API_KEY = '';
 
 // Function to search for YouTube channels
 async function searchChannels(query) {
